@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Riskometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="raceSpinner">
+        <item>African American</item>
+        <item>American Indian</item>
+        <item>Asian</item>
+        <item>Caucasian</item>
+        <item>Hispanic/Latino</item>
+        <item>Multiracial</item>
+        <item>Pacific Islander</item>
+        <item>Other</item>
+    </string-array>
+    <string name="agePlaceHolder">0-130</string>
+
+    
+
+</resources>
