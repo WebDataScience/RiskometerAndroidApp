@@ -38,27 +38,8 @@ public class resultTest extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test);
-		// View webview = findViewById(R.id.webview);
-		// String
-		// url="http://chart.apis.google.com/chart?cht=p3&chs=500x200&chd=e:TNTNTNGa&chts=000000,16&chtt=A+Better+Web&chl=Hello%7CHi%7Canas%7CExplorer&chco=FF5533,237745,9011D3,335423&chdl=Apple%7CMozilla%7CGoogle%7CMicrosoft";
 		webview = (WebView) findViewById(R.id.webview);
-		// next line explained below
-
-		/*
-		 * genderResultPage.setText("Selected Gender"+Gender.userSelectedGender);
-		 * raceResultPage.setText("selected race:"+race.userSelectedRace);
-		 * ageResultPage.setText("Selected Age:"+secondActivity.ageInString);
-		 * priviousHospitalization
-		 * .setText("previous hospitalization:"+hospitalization
-		 * .priviousHospitalization);
-		 * if(hospitalization.priviousHospitalization.toString().equals("Yes"))
-		 * { priviousHosptalizationYes.setText("number of days in hospital:"
-		 * +hospitalHistoryYes.lengthOfStay); } else {
-		 * priviousHosptalizationYes.setText(""); }
-		 * 
-		 * strokeResultPage.setText("selected stoke value:"+stroke.
-		 * userSelectedStrokeValue);
-		 */
+	
 		String output = "";
 		Boolean bool = isConnected();
 		Log.i("Network State", bool.toString());
